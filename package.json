@@ -1,0 +1,43 @@
+{
+  "name": "grunt-legacy-task",
+  "description": "Grunt's task methods, as a standalone library.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/gruntjs/grunt-legacy-task",
+  "author": {
+    "name": "\"Cowboy\" Ben Alman",
+    "url": "http://benalman.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gruntjs/grunt-legacy-task.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gruntjs/grunt-legacy-task/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/gruntjs/grunt-legacy-task/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "task",
+    "grunt"
+  ],
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "mocha": "^2.2.4",
+    "should": "^6.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
