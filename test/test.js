@@ -1,7 +1,7 @@
 /*!
- * grunt-legacy-task <https://github.com/gruntjs/grunt-legacy-task>
+ * grunt <http://gruntjs.com/>
  *
- * Copyright (c) 2015 "Cowboy" Ben Alman.
+ * Copyright (c) 2013-2015 "Cowboy" Ben Alman.
  * Licensed under the MIT license.
  */
 
@@ -10,8 +10,7 @@
 /* deps:mocha */
 var assert = require('assert');
 var grunt = require('grunt');
-var task = require('..');
-
+var task = require('../');
 
 describe('.task', function () {
   var actual, expected, key, value, cwd;
