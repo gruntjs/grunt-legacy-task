@@ -7,10 +7,10 @@
 
 'use strict';
 
-/* deps:mocha */
+/* deps: mocha */
 var assert = require('assert');
 var grunt = require('grunt');
-var task = require('../');
+var task = require('../').create({grunt: grunt});
 
 describe('.task', function () {
   var actual, expected, key, value, cwd;
